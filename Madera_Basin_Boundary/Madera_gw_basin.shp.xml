@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<eainfo>
+		<detailed>
+			<attr>
+				<attrlabl>Basin_Name</attrlabl>
+				<attalias>Basin_Name</attalias>
+				<attrdef>The name of a basin as defined in the Bulletin 118 text or the Boundary Modification Request.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Basin_Numb</attrlabl>
+				<attalias>Basin_Numb</attalias>
+				<attrdef>Basin_Numb</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Basin_Su_1</attrlabl>
+				<attalias>Basin_Su_1</attalias>
+				<attrdef>Basin_Su_1</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Basin_Subb</attrlabl>
+				<attalias>Basin_Subb</attalias>
+				<attrdef>Basin_Subb</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>CC_overdra</attrlabl>
+				<attalias>CC_overdra</attalias>
+				<attrdef>Basin subject to critical conditions of overdraft.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attalias>FID</attalias>
+				<attrdef>FID</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>GlobalID</attrlabl>
+				<attalias>GlobalID</attalias>
+				<attrdef>GlobalID</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attalias>OBJECTID</attalias>
+				<attrdef>Internal feature number.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Region_Off</attrlabl>
+				<attalias>Region_Off</attalias>
+				<attrdef>Region_Off</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attalias>Shape</attalias>
+				<attrdef>Feature geometry.</attrdef>
+			</attr>
+		</detailed>
+	</eainfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>Consolidated Data Basin Info: The following edits and corrections were completed for this version (5.1): (A) Several minor typos and boundary errors were corrected by DWR, including: (1) two small erroneous polygons attributed to Santa Clara Valley East Bay Plain were removed, (2) spelling out previously abbreviated FM to FORMATION in Annapolis Ohlson Ranch Formation Highlands (3) fixed typo in Coastal Plain of Los Angeles Hollywood basin number, (4) modified the boundary of the San Joaquin Valley Westside and San Joaquin Valley Kings basins on the north and eastern edges, (5) modified the boundary of San Joaquin Valley Tulare Lake and San Joaquin Valley Tule basins east/west border, (6) modified boundary of San Joaquin Valley Merced and San Joaquin Valley Chowchilla basins, (7) modified boundary of San Joaquin Valley Merced and San Joaquin Valley Delta Mendota basins, (8) modified boundary of West Santa Cruz Terrace and Santa Cruz Mid County basins, (9) modified boundary of San Joaquin Valley Delta Mendota and San Joaquin Valley Chowchilla basins. (B) Additionally, the schema was changed to better accommodate map labels and to better align with the groundwater elevation tracking databases within DWR.
+
+  
+
+In an effort to realign locations of groundwater basins and subbasins, a process was set up to review the boundaries of all groundwater basins and subbasins to ensure they were aligned with the most current county boundaries. In the initial creation of the B118 dataset, there were some errors introduced with the use of county lines. This process step was undertaken to correct these errors. We reviewed each basin written description to provide a list of which basin boundaries needed to have their county line portions reviewed. Once we had a list of the basins that needed review, we reviewed them with the using the CalFire Counties dataset to ensure accurate coincidence of boundaries. These realignments are not an adjustment to the written text contained within the Bulletin 118 but an attempt to better capture geographically the written descriptions.
+  
+
+  
+
+In an effort to realign locations of groundwater basins and subbasins, a process was set up to review the boundaries of all groundwater basins and subbasins to ensure they were aligned with the most current stream boundaries. In the initial creation of the B118 dataset, there were some errors introduced with the use of stream and rivers as a boundary. This process step was undertaken to correct these errors. We reviewed each basin written description to provide a list of which basin boundaries referred to a stream or river and subsequently needed to have their county line portions reviewed. Once we had a list of the basins that needed review, we reviewed them using the National Hydrography Dataset's Hydroline dataset to ensure accurate coincidence of boundaries. These realignments are not an adjustment to the written text contained within the Bulletin 118 but an attempt to better capture geographically the written descriptions.
+  
+
+  
+
+Following the adoption of DWR's Basin Boundary Emergency Regulations, DWR provided an online Basin Boundary Assessment Tool (BBAT) to inform local agencies and the public about the existing Bulletin 118 groundwater basins and other relevant geologic and geographic data. DWR developed a Basin Boundary Modification Request System to enable local agencies to submit their requests for basin boundary modifications online, and the public to view those requests and provide comments. The draft approved basin boundary modifications were developed through DWR's technical review of basin boundary modification requests and public comment made during the submission period, January 1, 2016 through March 31, 2016.DWR held a series of public meetings to present the Draft Approved Basin Boundary Modifications, provide an overview of the BBMRS and technical review process, answer clarifying questions and receive further public comments on the Draft Approved Basin Boundary Modification submissions. After the public meetings, the public comments were summarized and presented to the California Water Commission. Following consideration and potential incorporation of comments heard, DWR will publish the final basin boundary modifications. These basin boundary modifications were incorporated into the dataset.
+  
+
+  
+
+In an effort to realign locations of groundwater basins and subbasins, a process was set up to review the boundaries of all groundwater basins and subbasins to ensure they were aligned with the most current geologic boundaries. This process step was undertaken to review and correct some of the errors related to geologic boundaries. We reviewed each basin written description to provide a list of which basin boundaries referred to a geologic boundary and subsequently needed to have their geologic boundary portions reviewed. Once we had a list of the basins that needed review, we reviewed them with the using the California Geologic Survey maps of 1:250,000 scale (Regional Geoloci Map Series and The Geologic Atlas of California), and when readily available at other larger scale (more detailed) published geologic maps to ensure accurate coincidence of boundaries. For this review, High and Medium Priority basins with discrepancies between the linework and written description were sorted as having "significant", "major", or "minor" geologic issues. DWR has made adjustments to basin boundaries having a significant geologic issue, and an unambiguous written description. These realignments are not an adjustment to the written text contained within the Bulletin 118 but an attempt to better capture geographically the written descriptions.
+  
+
+  
+
+Metadata Update - December 09, 2010 B118_v3_BasinBoundaries_NAD83_unprojected file was developed from B118v3NAD27UTM10 (dated 15-September-2006) which had a UTM 10 NAD 27 projection. The new file projection is defined as Latitude/Longitude NAD 83 and was converted using ESRI's Project tool in a two step process. Set one changed the Datum from NAD27 to NAD 83. The second step was to re-project the file from Universal Transverse Mercator 10 to Lat/Long Geographic projection for the use of CASGEM.
+  
+
+  
+
+Metadata Update - June 20, 2012 The shapefile B118_BasinBoundaries_v4_1.shp replaces B118_v3_BasinBoundaries_NAD83_unprojected.shp. Changes in the update include restoration of the northern portion of the North Yuba subbasin which was inadvertently removed during the 2003 B-118 Update. Also, the DWR District field (DWR_DIST) in the feature attribute table has been replaced by Regional Office Field (Regional_O). Basin boundary features in previous versions that were comprised of multiple polygons are now represented by single multi-part polygons.</procdesc>
+			</procstep>
+		</lineage>
+		<complete>Dataset appears to have all features. Due to the nature of the subject matter, edge to edge coverage of California does not exist.</complete>
+		<attracc>
+			<attraccr>Of 517 Features: All have Basin_ID, Basin_Subasin_ID, Basin_Name, BasinSubbasin_Type, GW_Budget_Type, Region_Office, Report, and Date_Data_Applies_To populated. Those Features which were present in 2003 have the Basin_Subasin_ID field populated. Those features where they are a subbasin have Subbasin_Name populated. Date_Record_Last_Edited, Record_Edited_By and Comments have some  values present by design.</attraccr>
+		</attracc>
+	</dataqual>
+	<idinfo>
+		<useconst>DWR Data Disclaimer: This dataset was developed by the State of California, Department of Water Resources, for uses beneficial to the State. The information is available upon request to interested members of the public. While the Department believes the information to be reliable and made efforts to assure its reliability at the time the information was compiled, the information is provided "as is". The Department is not responsible for the accuracy, completeness, quality or legal sufficiency of the information. Any expressed or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for purpose ARE SPECIFICALLY DISCLAIMED. Neither the Department nor the State of California shall be held liable for any direct, indirect, incidental, special, exemplary or consequential damages (including, but not limited to: procurement of substitute goods or services; loss of use, data or profits; or business interruption), however caused and on any theory of liability, whether in contract, strict liability or tort, arising in any way out of the use of this information. This disclaimer applies to use of the information alone and to its aggregate use with other information, data or programs. The information contained in each of the basin descriptions at this site was obtained from information on file in the offices of the Department of Water Resources and limited additional information. Recent studies may contain additional, more up-to-date information. To obtain the most up-to-date information about the basin you are interested in, please contact the local management agency listed near the end of the basin description. The State of California and the Department of Water Resources hereby specifically retain any intellectual property interest, including copyright, that they may hold in the information provided, whether the information is in the form of data, files, text images, photography or maps. The Department requests that persons receiving and using this information not make it available to others for their re-use. Instead, interested third parties should be encouraged to contact the Department for copies, in order to ensure that the information is obtained from the source that developed it, that can provide the greatest degree of reliability. Caution: It is possible to plot part or the entire map at a scale that exceeds the 1:250,000 resolution of the map. However, the groundwater basin data can be no more accurate than the 1:250,000 resolution base map on which it was plotted.</useconst>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2017-07-26</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<ptcontac>
+			<cntinfo>
+				<cntemail>Brett.Wyckoff@water.ca.gov</cntemail>
+				<cntperp>
+					<cntper>Brett Wyckoff</cntper>
+					<cntorg>DWR - Division of Integrated Regional Water Management</cntorg>
+				</cntperp>
+			</cntinfo>
+		</ptcontac>
+		<keywords>
+			<theme>
+				<themekey>dwr,aquifer,dept. of water resources,geology,sub basin,bulletin 118,department of water resources,boundaries,ground water,sub-basin,california,aquifers,basin,b118,hydrogeology,subbasin,b-118,groundwater</themekey>
+			</theme>
+		</keywords>
+		<spdom>
+			<bounding>
+				<southbc>3833624.0895</southbc>
+				<northbc>5161542.904</northbc>
+				<eastbc>-12715545.6753</eastbc>
+				<westbc>-13843555.3549</westbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>The dataset is a feature class showing the boundaries of 517 groundwater basins and subbasins as defined by the California Department of Water Resources as last modified by the Basin Boundary Emergency Regulation adopted on October 21, 2015. These groundwater basin boundaries were populated with status of condition of overdraft using the data from, http://www.water.ca.gov/groundwater/sgm/pdfs/COD-basins_2016_Dec19.pdf.The Sustainable Groundwater Management Act (SGMA) directs the Department of Water Resources (DWR) to identify groundwater basins and subbasins in conditions of critical overdraft. Conditions of critical overdraft result from undesirable impacts which can include seawater intrusion, land subsidence, groundwater depletion, and/or chronic lowering of groundwater levels. DWR identified such basins in Bulletin-118, 1980 and included the same area with the revised basin boundaries in Bulletin 118, Update 2003. As defined in the SGMA, “A basin is subject to critical overdraft when continuation of present water management practices would probably result in significant adverse overdraft-related environmental, social, or economic impacts.”As required in the SGMA, all Bulletin 118 basins designated as high or medium priority and critically overdrafted shall be managed under a groundwater sustainability plan or coordinated groundwater sustainability plans by January 31, 2020. All other high and medium priority basins must be managed under a groundwater sustainability plan by January 31, 2022. The file is in ESRI geodatabase format and is intended for use with compatible GIS software. Groundwater basins are represented as polygon features and designated on the basis of geological and hydrological conditions - usually the occurrence of alluvial or unconsolidated deposits. When practical, large basins are also subdivided by political boundaries, as in the Central Valley. Basins are named and numbered per the convention of the Department of Water Resources. The associated data are considered DWR enterprise GIS data, which meet all appropriate requirements of the DWR GIS Spatial Data Standards. DWR makes no warranties or guarantees, either expressed or implied, as to the completeness, accuracy or correctness of the data, nor accepts or assumes any liability arising from or for any incorrect, incomplete or misleading subject data. The official DWR GIS Data Steward for this dataset is Brett Wyckoff, who may be contacted at 916-651-9283, or at brett.wyckoff@water.ca.gov. Comments, problems, improvements, updates, or suggestions should be forwarded to the official GIS Data Steward as available and appropriate.</abstract>
+			<purpose>Bulletin 118 defines the recognized groundwater basins and subbasins throughout the State of California. The Bulletin 118 document provides information on these basins/subbasins and the nature and extent of groundwater occurrence and management within the State. The Bulletin 118 dataset makes the geographic locations and extent of the 517 basins/subbasins publically available, for use in external mapping/GIS applications.</purpose>
+			<supplinf>Origination of Data - The basin boundaries for the groundwater basin map were primarily defined using geologic contacts and hydrogeologic divides. Specifically, the identification of the groundwater basins was initially based on the presence and areal extent of unconsolidated alluvial soils identified on 1:250,000 scale geologic maps provided by the California Department of Conservation, Division of Mines and Geology. The identified groundwater basin areas were then further evaluated through review of relevant geologic and hydrogeologic reports, well completion reports, court-determined adjudicated basin boundaries, and contact with local agencies to refine the basin boundaries. Date - The latest version of DWR’s Bulletin 118 document is dated October, 2003, and is available at: http://www.water.ca.gov/groundwater/bulletin118/update2003.cfm The current dataset was updated at the time the latest Bulletin 118 document was produced, and is based on geological maps and other information available at that time. There have been minor corrections to the dataset since that time, as described in the data lineage. Recently additional changes occurred as a result of the Basin Boundary Emergency Regulation adopted on October 21, 2015. The current dataset was updated at the time the latest Bulletin 118 document was produced, and is based on geological maps and other information available at that time. There have been minor corrections to the dataset since that time, as described in the data lineage. Additional Contacts - Contacts Statewide Data Steward: Brett Wyckoff Senior Engineering Geologist California Department of Water Resources Division of Integrated Regional Water Management (916) 651-9283 Brett.Wyckoff@water.ca.gov Region Office Data Sub-stewards: Northern Region Office Michelle Dooley Engineering Geologist (530) 529-7380 Michelle.Dooley@water.ca.gov North-Central Region Office Bill Brewster Engineering Geologist (916) 376-9622 Bill.Brewster@water.ca.gov South-Central Region Office Ben Gooding Engineering Geologist (559) 230-3359 Benjamin.Gooding@water.ca.gov Southern Region Office Matt Zimmerman Engineering Geologist (818) 549-2339 Matthew.Zimmerman@water.ca.gov Update Frequency: Changes to the dataset are made on an infrequent and irregular basis. Minor changes are occasionally made and will be documented in the metadata. Substantial changes, such as the extent of a basin boundary, must be completed as part of a public process, where the changes are proposed and public review and comment are welcomed before any changes are finalized.</supplinf>
+		</descript>
+		<citation>
+			<citeinfo>
+				<onlink>https://databasin.org/datasets/8cf9f129dfef497bb2acecc888169d8c</onlink>
+				<title>Groundwater Basins Subject to Critical Conditions of Overdraft</title>
+				<origin>Department of Water Resources</origin>
+				<othercit>DWR Data Disclaimer: This dataset was developed by the State of California, Department of Water Resources, for uses beneficial to the State. The information is available upon request to interested members of the public. While the Department believes the information to be reliable and made efforts to assure its reliability at the time the information was compiled, the information is provided "as is". The Department is not responsible for the accuracy, completeness, quality or legal sufficiency of the information. Any expressed or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for purpose ARE SPECIFICALLY DISCLAIMED. Neither the Department nor the State of California shall be held liable for any direct, indirect, incidental, special, exemplary or consequential damages (including, but not limited to: procurement of substitute goods or services; loss of use, data or profits; or business interruption), however caused and on any theory of liability, whether in contract, strict liability or tort, arising in any way out of the use of this information. This disclaimer applies to use of the information alone and to its aggregate use with other information, data or programs. The information contained in each of the basin descriptions at this site was obtained from information on file in the offices of the Department of Water Resources and limited additional information. Recent studies may contain additional, more up-to-date information. To obtain the most up-to-date information about the basin you are interested in, please contact the local management agency listed near the end of the basin description. The State of California and the Department of Water Resources hereby specifically retain any intellectual property interest, including copyright, that they may hold in the information provided, whether the information is in the form of data, files, text images, photography or maps. The Department requests that persons receiving and using this information not make it available to others for their re-use. Instead, interested third parties should be encouraged to contact the Department for copies, in order to ensure that the information is obtained from the source that developed it, that can provide the greatest degree of reliability. Caution: It is possible to plot part or the entire map at a scale that exceeds the 1:250,000 resolution of the map. However, the groundwater basin data can be no more accurate than the 1:250,000 resolution base map on which it was plotted.</othercit>
+			</citeinfo>
+		</citation>
+	</idinfo>
+	<distinfo>
+		<distliab>No warranty is made by Data Basin for use of this dataset.  No warranty is made by Data Basin regarding the accuracy, reliability, or completeness of this dataset. In no event shall Data Basin have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits arising out of the use or reliance on the geographic or attribute data contained within this dataset or arising out of the delivery, installation, operation, or support by Data Basin.</distliab>
+		<techpreq>Desktop GIS software.</techpreq>
+		<stdorder>
+			<digform>
+				<digtopt>
+					<onlinopt>
+						<accinstr>Download from https://databasin.org</accinstr>
+						<computer>
+							<networka>
+								<networkr>https://databasin.org/datasets/8cf9f129dfef497bb2acecc888169d8c</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+				<digtinfo>
+					<filedec>No compression applied</filedec>
+					<formvern>ArcGIS 10</formvern>
+					<formspec>Feature Layer</formspec>
+					<formname>Feature Layer</formname>
+				</digtinfo>
+			</digform>
+			<ordering>Download from https://databasin.org</ordering>
+			<fees>None</fees>
+		</stdorder>
+		<distrib>
+			<cntinfo>
+				<cntvoice>541-757-0687</cntvoice>
+				<cntemail>databasin_admin@consbio.org</cntemail>
+				<cntperp>
+					<cntorg>Data Basin</cntorg>
+					<cntper>Data Basin Administrator</cntper>
+				</cntperp>
+				<cntaddr>
+					<country>USA</country>
+					<city>Corvallis</city>
+					<postal>97333</postal>
+					<address>136 SW Washington Ave, Suite 202</address>
+					<addrtype>physical address</addrtype>
+					<state>OR</state>
+				</cntaddr>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<Esri>
+		<CreaDate>20190725</CreaDate>
+		<CreaTime>16135800</CreaTime>
+		<SyncOnce>TRUE</SyncOnce>
+		<DataProperties>
+			<itemProps>
+				<itemLocation>
+					<linkage Sync="TRUE">file://C:\windows\temp\tmpjxqc92\8cf9f129dfef497bb2acecc888169d8c\commondata\groundwater_overdraft\i08_B118_v5-1projected</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</itemLocation>
+			</itemProps>
+			<copyHistory>
+				<copy source="C:\windows\temp\tmpjxqc92\commondata\groundwater_overdraft\i08_B118_v5-1projected" dest="C:\windows\temp\tmpjxqc92\8cf9f129dfef497bb2acecc888169d8c\commondata\groundwater_overdraft\i08_B118_v5-1projected" date="20180124" time="23094800"/>
+			</copyHistory>
+		</DataProperties>
+		<ArcGISFormat>1.0</ArcGISFormat></Esri>
+</metadata>
